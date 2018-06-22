@@ -17,7 +17,7 @@ This command uses [wp-cli-ssh](https://github.com/xwp/wp-cli-ssh).
 
 To get started use their instructions to setup a remote host:
 
-Add an `ssh` section to your `wp-cli.yml`/`wp-cli.local.yml`, as seen in the [sample config](wp-cli.sample.yml).
+Add an `ssh` section to your `wp-cli.yml`/`wp-cli.local.yml`, as seen in the [sample config](https://github.com/xwp/wp-cli-ssh/blob/master/wp-cli.sample.yml).
 You indicate the `ssh` command templates for each host you want to connect to. The template variable `%cmd%` is 
 replaced with the full command to run on the server; the `%pseudotty%` template variable is replaced 
 with `-t`/`-T` depending on whether you're on a TTY or piping the command output.
