@@ -6,6 +6,8 @@ This is a wp-cli command version of [this gist](https://gist.github.com/timneutk
 ## Installation
 `composer require timneutkens/wp-cli-dbsync:^1.0.0`
 
+`wp package install https://github.com/timneutkens/wp-cli-dbsync.git` <- you need to have [wp-cli](https://github.com/wp-cli/wp-cli) installed, so that it can work.
+
 ## Configuration
 This command uses [wp-cli-ssh](https://github.com/xwp/wp-cli-ssh).
 
