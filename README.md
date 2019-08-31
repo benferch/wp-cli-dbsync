@@ -10,7 +10,7 @@ This is a wp-cli command version of [this gist](https://gist.github.com/timneutk
 
 ##### If the one above won't work try the one below
 
-`wp package install https://github.com/realeaz/wp-cli-dbsync.git` <- you need to have [wp-cli](https://github.com/wp-cli/wp-cli) installed, so that it can work.
+`wp package install https://github.com/benferch/wp-cli-dbsync.git` <- you need to have [wp-cli](https://github.com/wp-cli/wp-cli) installed, so that it can work.
 
 ## Configuration
 This command uses [wp-cli-ssh](https://github.com/xwp/wp-cli-ssh).
